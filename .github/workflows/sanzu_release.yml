@@ -131,27 +131,27 @@ jobs:
           draft: true
 
       - name: Download Alpine artifact
-        uses: actions/download-artifact@v1
+        uses: actions/download-artifact@v4.1.7
         with:
           name: sanzu-alpine-release
 
       - name: Download Debian artifact
-        uses: actions/download-artifact@v1
+        uses: actions/download-artifact@v4.1.7
         with:
           name: sanzu-debian-release
 
       - name: Download Alma8 artifact
-        uses: actions/download-artifact@v1
+        uses: actions/download-artifact@v4.1.7
         with:
           name: sanzu-alma8-release
 
       - name: Download Alma9 artifact
-        uses: actions/download-artifact@v1
+        uses: actions/download-artifact@v4.1.7
         with:
           name: sanzu-alma9-release
 
       - name: Download Windows artifact
-        uses: actions/download-artifact@v1
+        uses: actions/download-artifact@v4.1.7
         with:
           name: sanzu-windows-release
 
